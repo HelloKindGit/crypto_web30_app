@@ -44,8 +44,6 @@ export const TransactionsProvider = ({ children }) => {
         }));
 
         setTransactions(structuredTransactions);
-
-        setTransactions(structuredTransactions);
       } else {
         console.log('Ethereum is not present');
       }
